@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+body{
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(132,45,253,1) 100%);
+ }
+
+ img{
+    width: 450px;
+    height: 450px;
+    padding: 100px 500px;
+ }
