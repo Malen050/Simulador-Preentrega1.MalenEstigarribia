@@ -30,6 +30,19 @@ else if (cuota <= 6){
 
 alert('Su operación esta siendo procesada')
 
-alert('Tiene que devolver: ' + monto * interés);
-alert('En cuotas de: ' + (monto * interés)/cuota);
+//alert('Tiene que devolver: ' + monto * interés);
+//alert('En cuotas de: ' + (monto * interés)/cuota);
 
+function multiplicar(monto, interés){
+    return monto * interés
+}
+
+let resultado = multiplicar(monto, interés);
+alert('Tiene que devolver: ' + resultado)
+
+function dividir(resultado, cuota){
+    return resultado / cuota;
+}
+
+let resultado2 = dividir(resultado,cuota);
+alert('En cuotas de: ' + resultado2)
