@@ -38,11 +38,11 @@ function multiplicar(monto, interés){
 }
 
 let resultado = multiplicar(monto, interés);
-alert('Tiene que devolver: ' + resultado)
+alert('Tiene que devolver: ' + ' $' + resultado)
 
 function dividir(resultado, cuota){
     return resultado / cuota;
 }
 
 let resultado2 = dividir(resultado,cuota);
-alert('En cuotas de: ' + resultado2)
+alert('En cuotas de: ' + ' $' + resultado2)
